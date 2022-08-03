@@ -9,7 +9,11 @@
  </head>
  <body>
     
-    <div id="toggleMenu" onclick="toggleMenu()"></div>
+    <div id="toggleMenu" onclick="toggleMenu()">>content section 1
+    <div class="ins">
+        
+    </div>
+    </div>
 	<nav id="menu">
 		<img src="logo.png">
 		<ul>
@@ -24,10 +28,10 @@
 		var toggleStatus = 1;
 		function toggleMenu() {
 			if (toggleStatus == 1) {
-				document.getElementById("menu").style.left = "-240px";
+				document.getElementById("menu").style.display = "none";
 				toggleStatus = 0;
 			} else if (toggleStatus == 0) {
-				document.getElementById("menu").style.left = "0px";
+				document.getElementById("menu").style.display = "block";
 				toggleStatus = 1;
 			}
 		}
