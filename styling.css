@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: aliceblue;
+}
+
+#opn-cls{
+    width: 1000px;
+    border: 20px solid black;
+    position: fixed;
+    z-index: 1000;
+    transition: all  ease ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+    display: flex;
+    flex-direction: row;
+}
+
+.small-container{
+    
+    border: 10px solid linen;
+}
+
+#opn-cls ul{
+    padding-left: 30px;
+    
+}
