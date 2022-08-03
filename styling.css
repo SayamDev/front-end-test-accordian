@@ -21,14 +21,15 @@ nav {
 }
 
 
-nav ul {
+ul {
 	padding-left: 30px;
 	padding-top: 60px;
 }
 
-nav ul li {
-	list-style: none;
+ li {
+    
 	padding: 4px 0px;
+    list-style:square;
 }
 
 nav ul li a {
