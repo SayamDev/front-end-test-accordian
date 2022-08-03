@@ -17,6 +17,7 @@ nav {
 	z-index: 1000;
 	transition: all ease-in-out 200ms;
 	-webkit-transition: all ease-in-out 200ms;
+    display: none;
 }
 
 
