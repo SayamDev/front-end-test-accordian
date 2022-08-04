@@ -114,6 +114,8 @@ nav ul li a {
 	
 	margin-top: 25.4px;/*got dimension from using pixel preview from figma*/
 	margin-bottom: 22.6px;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 
@@ -245,3 +247,91 @@ color: #FFFFFF;
 
 
 /*Tablet*/
+
+@media only screen and (max-width: 960px) {
+	
+
+	.container{
+		margin-left: 12px;
+	margin-right: 12px;
+	}
+	.main_title{
+		line-height: 30px;
+		font-size: 24px;
+	
+	}
+
+	#toggleMenu {
+		/* width: 1770px; */
+		height: 36px;
+	}
+	#toggleMenu2 {
+		/* width: 1770px; */
+		height: 36px;
+	}
+	#toggleMenu3 {
+		/* width: 1770px; */
+		height: 36px;
+	}
+
+	.toggle-title {
+		font-size: 18px;
+		line-height: 36px;
+		}
+	#toggleMenu2 .toggle-title {
+		font-size: 18px;
+		line-height: 36px;
+		}
+	#toggleMenu3 .toggle-title {
+		font-size: 18px;
+		line-height: 36px;
+		}
+
+	#triangle{
+		width: 16px;
+		height: 10px;
+		border-width: 10px 8px 0 8px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		
+		}
+	#triangle2{
+		width: 16px;
+		height: 10px;
+		border-width: 10px 8px 0 8px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		
+		}
+	#triangle3{
+		width: 16px;
+		height: 10px;
+		border-width: 10px 8px 0 8px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		}
+
+		.p_inside p{
+	
+		font-size: 14px;
+		line-height: 20px;
+		}
+
+		.title_inside{
+			font-size: 20px;
+			line-height: 24px;
+			
+		}
+
+		li {
+    
+			
+			font-size: 14px;
+			line-height: 20px;
+			
+		}
+
+}
+
+
+
