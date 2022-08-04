@@ -15,8 +15,7 @@ body {
 }
 
 .container{
-	width: 100%;
-	height: 100%;
+	
 	display: flex;
 	flex-direction: column;
 	margin-left: 70px;
@@ -40,7 +39,8 @@ body {
 
 
 nav {
-	width: 1770px;
+	/* width: 1770px; */
+	width: 100%;
 	background-color: #fff;
 	display: flex;
     flex-direction: row;
@@ -112,7 +112,8 @@ nav ul li a {
 
 
 #toggleMenu {
-	width: 1770px;
+	/* width: 1770px; */
+	width: 100%;
 	height: 48px;
 	background-color: #C81E6E;
 	color: #fff;
@@ -126,6 +127,8 @@ nav ul li a {
 	
 }
 
+
+
 #toggleMenu .toggle-title {
 height: 48px;
 margin-left: 2.11%;
@@ -133,12 +136,14 @@ margin-right: 5.96%;
 top: calc(50% - 48px/2 + 9.6px);
 font-size: 24px;
 line-height: 48px;
-color: #FFFFFF;
+border: 2px solid red;
+
 
 }
 
 #toggleMenu2 {
-	width: 1770px;
+	/* width: 1770px; */
+	width: 100%;
 	height: 48px;
 	background-color: #86005F;
 	color: #fff;
@@ -161,8 +166,11 @@ font-size: 24px;
 line-height: 48px;
 color: #FFFFFF;
 }
+
+
 #toggleMenu3 {
-	width: 1770px;
+	/* width: 1770px; */
+	width: 100%;
 	height: 48px;
 	background-color: #00A1CA;
 	color: #fff;
