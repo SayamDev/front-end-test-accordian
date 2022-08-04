@@ -297,8 +297,6 @@ nav ul li a {
 
 /*Mobile*/
 
-/* @media only screen and (max-width: 300px) {
- */
 
  /*same px after tablet version*/
 
@@ -308,7 +306,7 @@ nav ul li a {
 /*
 you can make it more responsive by doing the following:
 
-	@media only screen and (max-width: 300px) {
+	@media only screen and (max-width: 400px) {
 		  .toggle-title {
     			font-size: 16px;
     		line-height: 38px;
