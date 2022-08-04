@@ -9,9 +9,9 @@ body {
 	background-color: #E4ECEF;
 	height: 100%;
 	width: 100%;
-	border: 2px solid red;
 	font-size: 16px;
 	line-height: 22px;
+	color: #494C4F;
 }
 
 .container{
@@ -19,18 +19,28 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 24px;
 
 }
 .main_title{
 	line-height: 34px;
 	font-size: 28px;
 	font-weight: bold;
+	margin-bottom: 23.8px;
+	margin-top: 70px;
+}
+
+.toggle-title{
+	font-weight: normal;
 }
 
 
 
+
 nav {
-	width: 1140px;
+	width: 1770px;
 	background-color: #fff;
 	display: flex;
     flex-direction: row;
@@ -42,10 +52,7 @@ nav {
 }
 
 
-ul {
-	padding-left: 30px;
-	padding-top: 60px;
-}
+
 
  li {
     
@@ -76,20 +83,41 @@ nav ul li a {
 	text-transform: uppercase;
 }
 
+.title_inside{
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 12.8px;
+	margin-top: 23.2px;
+}
+
+.link_inside{
+	text-decoration: none;
+	color:#c81e6e;
+}
+.link_inside:hover{
+	color: #005DA1;
+}
+
 .p_inside{
 	margin-left: 2.11%;
 	margin-right: 5.96%;
 }
 
+.p_inside p{
+	
+	margin-top: 25.4px;/*got dimension from using pixel preview from figma*/
+	margin-bottom: 22.6px;
+}
+
+
+
 #toggleMenu {
-	width: 1140px;
+	width: 1770px;
 	height: 48px;
 	background-color: #C81E6E;
 	color: #fff;
 	background-size: cover;
 	background-repeat: no-repeat;
-	top: 0px;
-	left: 0px;
 	z-index: 1050;
 	cursor: pointer;
 	border-radius: 2px;
@@ -106,10 +134,11 @@ top: calc(50% - 48px/2 + 9.6px);
 font-size: 24px;
 line-height: 48px;
 color: #FFFFFF;
+
 }
 
 #toggleMenu2 {
-	width: 1140px;
+	width: 1770px;
 	height: 48px;
 	background-color: #86005F;
 	color: #fff;
@@ -133,9 +162,9 @@ line-height: 48px;
 color: #FFFFFF;
 }
 #toggleMenu3 {
-	width: 1140px;
+	width: 1770px;
 	height: 48px;
-	background-color: #005DA1;
+	background-color: #00A1CA;
 	color: #fff;
 	background-size: cover;
 	background-repeat: no-repeat;
