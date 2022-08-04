@@ -11,7 +11,6 @@ body {
 nav {
 	width: 1020px;
 	background-color: #fff;
-	position: fixed;
 	display: flex;
     flex-direction: row;
 	z-index: 1000;
@@ -51,6 +50,32 @@ nav ul li a {
 	z-index: 1050;
 	cursor: pointer;
 	border: 10px solid #fff;
+	border-radius: 2px;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+}
+#toggleMenu2 {
+	width: 1020px;
+	height: 20px;
+	background-color: yellow;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1050;
+	cursor: pointer;
+	border: 10px solid red;
+	border-radius: 2px;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+}
+#toggleMenu3 {
+	width: 1020px;
+	height: 20px;
+	background-color: lawngreen;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1050;
+	cursor: pointer;
+	border: 10px solid black;
 	border-radius: 2px;
 	transition: all ease-in-out 200ms;
 	-webkit-transition: all ease-in-out 200ms;
