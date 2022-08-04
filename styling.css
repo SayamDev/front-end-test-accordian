@@ -8,7 +8,10 @@
 body {
 	background-color: #E4ECEF;
 	height: 100%;
-	width: 1280px;
+	width: 100%;
+	border: 2px solid red;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .container{
@@ -16,8 +19,6 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	margin-left: 2%;
-	margin-right: 2%;
 
 }
 .main_title{
@@ -37,6 +38,7 @@ nav {
 	transition: all ease-in-out 200ms;
 	-webkit-transition: all ease-in-out 200ms;
     display: none;
+	
 }
 
 
@@ -49,6 +51,8 @@ ul {
     
 	padding: 4px 0px;
     list-style:none;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 /*square list type*/
@@ -60,6 +64,7 @@ li:before {
 	background-color: #C81E6E;
 	border-radius: 0%;
 	margin-right: 10px;
+	margin-bottom: 1px ;
 	
 }
 
